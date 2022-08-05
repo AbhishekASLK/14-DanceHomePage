@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+nav img{
+    width: 70px;
+    height: 25px;
+    margin-left: 5%;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-line{
+    width: 20%;
+    height: 1px;
+    background-color: black;
+    margin-left: 28%;
+}
+
+nav ul li{
+    text-transform: capitalize;
+    list-style: none;
+    margin: 0 25px;
+    font-size: 12px;
+    color: #919191;
+}
+
+.navbar li:first-child{
+    color: black;
+}
+
+.main-image{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100vh;
+    width: 400px;
+}
+
+.right-side-box{
+    position: absolute;
+    right: 5%;
+    display: flex;
+    width: 55%;
+    top: 15%;
+}
+
+.upper-text, .lower-text{
+    font-size: 5rem;
+}
+
+.upper-text{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+.lower-text{
+    color: #333333;
+    margin-left: 70px;
+}
+
+.right-side-box p{
+    color: #858585;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 130px;
+    margin: 0 25px;
+}
+
+.social-icon{
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.social-icon li{
+    list-style: none;
+    margin: 25px 0;
+}
+
+.btn{
+    text-transform: capitalize;
+    padding: 15px 40px;
+    background-color: #333333;
+    color: white;
+    position: absolute;
+    right: 8%;
+    top: 48%;
+    border: none;
+    font-weight: 700;
+}
+
+.down-side{
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.second-image{
+    width: 300px;
+    height: 152px;
+}
+
+.options li{
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #828282;
+    margin: 30px 0;
+}
+
+.options li:nth-child(1){
+    color: black;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #828282;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.first-dot{
+    background-color: black;
+}
+
+.line{
+    position: absolute;
+    width: 1px;
+    height: 220px;
+    background-color: #828282;
+    bottom: 0;
+    left: 4px;
+    z-index: -1;
+}
+
+.second-img i{
+    font-size: 2rem;
+}
+
+.second-img p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.arrow-line{
+    height: 90px;
+    width: 2px;
+    background-color: black;
+}
+
+.arrow i{
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    top: -15px;
+}
