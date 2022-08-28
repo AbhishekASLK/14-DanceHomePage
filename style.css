@@ -18,8 +18,6 @@ nav{
 }
 
 nav img{
-    width: 70px;
-    height: 25px;
     margin-left: 5%;
     color: black;
 }
@@ -39,8 +37,8 @@ nav ul{
 nav ul li{
     text-transform: capitalize;
     list-style: none;
-    margin: 0 25px;
-    font-size: 12px;
+    margin: 0 40px;
+    font-size: 20px;
     color: #919191;
 }
 
@@ -53,7 +51,7 @@ nav ul li{
     z-index: -1;
     top: 0;
     height: 100vh;
-    width: 400px;
+    width: 35%;
 }
 
 .right-side-box{
@@ -65,12 +63,12 @@ nav ul li{
 }
 
 .upper-text, .lower-text{
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 .upper-text{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
 }
 
 .lower-text{
@@ -110,10 +108,10 @@ nav ul li{
 
 .down-side{
     position: absolute;
-    right: 5%;
+    right: 20%;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 600px;
 }
@@ -180,4 +178,59 @@ nav ul li{
     position: relative;
     right: 10px;
     top: -15px;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 950px){
+    
+    .navbar-line{
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 3rem;
+        right: 2rem;
+        font-size: 2rem;
+        display: block;
+    }
+
+    .main-image, .navbar, .social-icon{
+        display: none;
+    }
+
+    .right-side-box{
+        position: absolute;
+        left: 0;
+        display: flex;
+        width: 55%;
+        top: 15%;
+    }
+
+    .upper-text, .lower-text{
+        margin-top: 2rem;
+        font-size: 5rem;
+    }
+
+    .btn {
+        margin-top: 3.5rem;
+    }
+
+    .down-side{
+        margin-top: 20rem;
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 600px;
+    }
+    
+    .fa-quote-right {
+        display: none;
+    }
 }
